@@ -1,4 +1,4 @@
-# Getting and Cleaning Data Course Project Codebook
+## Getting and Cleaning Data Course Project Codebook
 This codebook refers to the file run_analysis.R in the repository at 
 https://github.com/moorejm/Getting-and-Cleaning-Data.
 
