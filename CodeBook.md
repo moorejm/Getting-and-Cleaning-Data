@@ -1,5 +1,10 @@
 # Getting and Cleaning Data Course Project Codebook
-
+## This codebook refers to the file run_analysis.R in the repository at 
+## https://github.com/moorejm/Getting-and-Cleaning-Data.
+## The data set used for this analysis is originally from the UCI Machine Learning Repository
+## at: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+## and data was downloaded from: 
+## https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 This is an R Markdown document. Markdown is a simple formatting syntax for authoring web pages (click the **Help** toolbar button for more details on using R Markdown).
 
