@@ -5,7 +5,14 @@ https://github.com/moorejm/Getting-and-Cleaning-Data.
 The data set used for this analysis is originally from the UCI Machine Learning Repository
 at: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-Original Data: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+Source:
+Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
+Smartlab - Non Linear Complex Systems Laboratory
+DITEN - UniversitÃ  degli Studi di Genova, Genoa I-16145, Italy.
+activityrecognition '@' smartlab.ws
+www.smartlab.ws 
+
+Download link: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 This is an R Markdown document. Markdown is a simple formatting syntax for authoring web pages (click the **Help** toolbar button for more details on using R Markdown).
 
