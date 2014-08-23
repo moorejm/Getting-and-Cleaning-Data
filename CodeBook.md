@@ -24,8 +24,10 @@ README.md file in the repository at https://github.com/moorejm/Getting-and-Clean
 about the data set used in the analysis can be found in the README.txt file included with the data set.
 
 ###Codebook Format
--Variable Name
-
+* Variable Name
+  - Variable Length
+  - Variable Definition
+  - Range of Values
 
 
 ```{r, echo=FALSE, message=FALSE}
