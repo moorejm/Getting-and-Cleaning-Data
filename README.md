@@ -19,6 +19,8 @@ The purpose of the run_analysis function is to practice data cleaning techniques
 4. Uses the "gsub" command to remove extra characters and expand shorthand variable names to make it more readable for the user (UpperCamelCase was used instead of lowercase variable names to make it easier to read long variable names)
 5. Uses the "aggregate" command to condense the data set into one mean per unique variable, activity, and subject combination.
 
+For more information regarding study design and how the data was collected, refer to README.txt in the UCI HAR Dataset.
+
 ### Description of run_analysis.R Functionality
 **Note:** For run_analysis to work properly, download the data set from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip and extract the UCI HAR Dataset folder to your working directory. Additionally, to write the results as a text file to your working directory, uncomment the last line. By default, this line is commented out so that users don't accidentally write a file to their computer.
 
@@ -28,14 +30,14 @@ The purpose of the run_analysis function is to practice data cleaning techniques
 
 ####1. Merges data from the "training" and "test" data set
 Run.analysis.R combines the following files from UCI HAR "train" and "test" data sets (download link above):
-* y_test (activity indicator for the test data set)
-* y_train (activity indicator for the train data set)
-* x_test (test data for all measured variables in "features")
-* x_train (train data for all measured variables in "features")
-* subject_test (subject number for the test data set)
-* subject_train (subject number for the train data set)
-* activity_labels (activity labels for numbers listed in "y_test" and "y_train")
-* features (list of all measured variables)
+* y_test.txt (activity indicator for the test data set)
+* y_train.txt (activity indicator for the train data set)
+* x_test.txt (test data for all measured variables in "features")
+* x_train.txt (train data for all measured variables in "features")
+* subject_test.txt (subject number for the test data set)
+* subject_train.txt (subject number for the train data set)
+* activity_labels.txt (activity labels for numbers listed in "y_test" and "y_train")
+* features.txt (list of all measured variables)
 
 The files are imported into R using the read.table() command and then equivalent files from the test and train data sets are combined using the rbind() command.
 
@@ -54,3 +56,27 @@ complete_data <- cbind(bind_y_subj, bind_x)
 ```
 
 ####2. Subsets the merged data set to only display mean and standard deviation measurements
+After combining the data sets, run_analysis.R subsets the combined table to only include mean and standard deviation variables. This was decided to be variables listed in features.txt with the keywords "mean" or "std" (in addition to the "Subject" and "Activity" columns from the combined data set). This includes variables that compare the difference in the angle measurements of multiple means since it deals with mean data.
+
+```
+mean_sd_data <- complete_data[,c(1,2,3,4,5,6,7,8,43,44,45,46,47,48,83,84,85,86,87,88,123,124,125,126,127,
+128,163,164,165,166,167,168,203,204,216,217,229,230,242,243,255,256,268,
+269,270,271,272,273,296,297,298,347,348,349,350,351,352,375,376,377,426,
+427,428,429,430,431,454,455,456,505,506,515,518,519,528,531,532,541,544,
+545,554,557,558,559,560,561,562,563)]
+```
+
+####3. Uses the "merge" command to convert activities in the raw data sets (reported as numbers) into a readable format using the codebook included with the original data set
+Once the data has been condensed to just include mean and standard deviation data, run_analysis.R uses the merge() command to replace the values found in y_test.txt and y_train.txt, representing the activity, with the actual activity name. The purpose of this is to make the data set more readable to the user instead of needing to look up the number (1-6) in a codebook. The numbered activity is used as the primary key between the files y_test.txt, y_train.txt (combined in the table "mean_sd_data), and activity_labels.txt.
+
+```
+activity_labels <- read.table("./UCI HAR Dataset/activity_labels.txt", header= FALSE)
+desc_activity <- merge(activity_labels, mean_sd_data, by.x = "V1", by.y = "V1")
+desc_activity_clean <- desc_activity[,2:89]
+```
+
+####4. Uses the "gsub" command to remove extra characters and expand shorthand variable names to make it more readable for the user (UpperCamelCase was used instead of lowercase variable names to make it easier to read long variable names)
+
+
+
+####5. Uses the "aggregate" command to condense the data set into one mean per unique variable, activity, and subject combination.
