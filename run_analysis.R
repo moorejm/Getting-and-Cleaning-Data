@@ -6,7 +6,7 @@
 # x_test and x_train, and making the activity labels and variable names more readable for
 # the user (variable names are named using the UpperCamelCase format for improved readability). 
 # Finally, the combined data set is condensed into a tidy data set by using the
-# aggregate function to find the average of each variable for each subject and subject.
+# aggregate function to find the average of each variable for each activity and subject.
 # Refer to README.md and CodeBook.md in the github repository at
 # https://github.com/moorejm/Getting-and-Cleaning-Data for more information.
 
