@@ -79,3 +79,6 @@ colnames(desc_activity_clean) <- add_features
 clean_data2 <- aggregate(desc_activity_clean[,c(3:88)], by=list(desc_activity_clean$Activity,desc_activity_clean$Subject), FUN=mean)
 colnames(clean_data2) <- add_features
 clean_data2
+
+# Uncomment the line below to write the data to a text file in your working directory, run_analysis.txt
+# write.table(clean_data2, "./run_analysis.txt", row.names=FALSE)
