@@ -76,7 +76,32 @@ desc_activity_clean <- desc_activity[,2:89]
 ```
 
 ####4. Uses the "gsub" command to remove extra characters and expand shorthand variable names to make it more readable for the user (UpperCamelCase was used instead of lowercase variable names to make it easier to read long variable names)
+Similar to step 3, the purpose of this step is to make the data set more readable. Run_analysis.R makes variable names (originally from features.txt) more readable by using the gsub() command to remove symbols (such as "-","(", and ")"), expand shorthand variables (such as "t" to "TimeDomain" or "Freq" to "Frequency"), and create a consistent naming convention.
 
+**Example:**
+```
+add_features <- gsub("-|\\(),", "", add_features)
+add_features <- gsub("^t", "TimeDomain", add_features)
+add_features <- gsub("^f", "FastFourierTransform", add_features)
+add_features <- gsub("Acc", "Accelerometer", add_features)
+```
+
+Although the lecture notes in the Getting and Cleaning Data course recommend using all lowercase characters for variable names, the UpperCamelCase format was used for variables in this project because it makes it easier for the user to read the long column headers found in the output table.
 
 
 ####5. Uses the "aggregate" command to condense the data set into one mean per unique variable, activity, and subject combination.
+Using the aggregate() command, the data set is condensed into a table containing the mean for each unique combination of variable, activity, and subject. This reduces the size of the final table considerably. For example, all of the "WALKING" measurements recorded by Subject 1 for the variable "TimeDomainBodyAccelerometerMeanXaxis" are combined into one data point, the mean of the recorded measurements.
+
+```
+clean_data2 <- aggregate(desc_activity_clean[,c(3:88)], by=list(desc_activity_clean$Activity,desc_activity_clean$Subject), FUN=mean)
+```
+
+####Final Steps
+After the tidy data set has been created, the final step is to apply the detailed column names to the data set and output the results. In order to prevent users from mistakenly writing the results to a table on their computer, the write.table() command has been commented out. To write the results to a .txt file, simply uncomment the final line.
+
+```
+colnames(clean_data2) <- add_features
+clean_data2
+# Uncomment the line below to write the data to a text file in your working directory, run_analysis.txt
+# write.table(clean_data2, "./run_analysis.txt", row.names=FALSE)
+```
