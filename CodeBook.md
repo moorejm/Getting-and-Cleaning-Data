@@ -33,14 +33,14 @@ about the data set used in the analysis can be found in the README.txt file incl
 ### Codebook
 
 * Activity
-  -
-  -
-  -
+  - test
+  - test
+  - test
 
 * Subject
-  -
-  -
-  -
+  - test
+  - test
+  - test
 
 * TimeDomainBodyAccelerometerMeanXaxis
   -
