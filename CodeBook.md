@@ -226,249 +226,249 @@ about the data set used in the analysis can be found in the README.txt file incl
 * TimeDomainBodyGyroscopeMagnitudeMean
   -
   -
-  -
+  - -0.980740846769231 to 0.418004608615385, Range = 1.39874545538462
 
 * TimeDomainBodyGyroscopeMagnitudeStandardDeviation
   -
   -
-  -
+  - -0.981372675614035 to 0.299975979851852, Range = 1.28134865546589
 
 * TimeDomainBodyGyroscopeJerkMagnitudeMean
   -
   -
-  -
+  - -0.997322526811594 to 0.0875816618205128, Range = 1.08490418863211
 
 * TimeDomainBodyGyroscopeJerkMagnitudeStandardDeviation
   -
   -
-  -
+  - -0.997666071594203 to 0.250173204117966, Range = 1.24783927571217
 
 * FastFourierTransformBodyAccelerometerMeanXaxis
   -
   -
-  -
+  - -0.995249932641509 to 0.537012022051282, Range = 1.53226195469279
 
 * FastFourierTransformBodyAccelerometerMeanYaxis
   -
   -
-  -
+  - -0.989034304057971 to 0.524187686888889, Range = 1.51322199094686
 
 * FastFourierTransformBodyAccelerometerMeanZaxis
   -
   -
-  -
+  - -0.989473926666667 to 0.280735952206667, Range = 1.27020987887333
 
 * FastFourierTransformBodyAccelerometerStandardDeviationXaxis
   -
   -
-  -
+  - -0.996604570307692 to 0.658506543333333, Range = 1.65511111364103
 
 * FastFourierTransformBodyAccelerometerStandardDeviationYaxis
   -
   -
-  -
+  - -0.990680395362319 to 0.560191344, Range = 1.55087173936232
 
 * FastFourierTransformBodyAccelerometerStandardDeviationZaxis
   -
   -
-  -
+  - -0.987224804307692 to 0.687124163703704, Range = 1.6743489680114
 
 * FastFourierTransformBodyAccelerometerMeanFrequencyXaxis
   -
   -
-  -
+  - -0.635913046346154 to 0.159123629063636, Range = 0.79503667540979
 
 * FastFourierTransformBodyAccelerometerMeanFrequencyYaxis
   -
   -
-  -
+  - -0.379518455061538 to 0.466528231788462, Range = 0.84604668685
 
 * FastFourierTransformBodyAccelerometerMeanFrequencyZaxis
   -
   -
-  -
+  - -0.520114793584906 to 0.402532553395833, Range = 0.922647346980739
 
 * FastFourierTransformBodyAccelerometerJerkMeanXaxis
   -
   -
-  -
+  - -0.994630797358491 to 0.474317256051282, Range = 1.46894805340977
 
 * FastFourierTransformBodyAccelerometerJerkMeanYaxis
   -
   -
-  -
+  - -0.989398823913043 to 0.276716853307692, Range = 1.26611567722074
 
 * FastFourierTransformBodyAccelerometerJerkMeanZaxis
   -
   -
-  -
+  - -0.992018447826087 to 0.157775692377778, Range = 1.14979414020386
 
 * FastFourierTransformBodyAccelerometerJerkStandardDeviationXaxis
   -
   -
-  -
+  - -0.995073759245283 to 0.476803887476923, Range = 1.47187764672221
 
 * FastFourierTransformBodyAccelerometerJerkStandardDeviationYaxis
   -
   -
-  -
+  - -0.990468082753623 to 0.349771285415897, Range = 1.34023936816952
 
 * FastFourierTransformBodyAccelerometerJerkStandardDeviationZaxis
   -
   -
-  -
+  - -0.993107759855072 to -0.00623647528983051, Range = 0.986871284565242
 
 * FastFourierTransformBodyAccelerometerJerkMeanFrequencyXaxis
   -
   -
-  -
+  - -0.576044001875 to 0.331449281481482, Range = 0.907493283356482
 
 * FastFourierTransformBodyAccelerometerJerkMeanFrequencyYaxis
   -
   -
-  -
+  - -0.601971415384615 to 0.195677336307692, Range = 0.797648751692307
 
 * FastFourierTransformBodyAccelerometerJerkMeanFrequencyZaxis
   -
   -
-  -
+  - -0.62755547372549 to 0.230107945944444, Range = 0.857663419669934
 
 * FastFourierTransformBodyGyroscopeMeanXaxis
   -
   -
-  -
+  - -0.99312260884058 to 0.474962448333333, Range = 1.46808505717391
 
 * FastFourierTransformBodyGyroscopeMeanYaxis
   -
   -
-  -
+  - -0.994025488297872 to 0.328817010088889, Range = 1.32284249838676
 
 * FastFourierTransformBodyGyroscopeMeanZaxis
   -
   -
-  -
+  - -0.985957788 to 0.492414379822222, Range = 1.47837216782222
 
 * FastFourierTransformBodyGyroscopeStandardDeviationXaxis
   -
   -
-  -
+  - -0.994652185217391 to 0.196613286661538, Range = 1.19126547187893
 
 * FastFourierTransformBodyGyroscopeStandardDeviationYaxis
   -
   -
-  -
+  - -0.994353086595745 to 0.646233637037037, Range = 1.64058672363278
 
 * FastFourierTransformBodyGyroscopeStandardDeviationZaxis
   -
   -
-  -
+  - -0.986725274871795 to 0.522454216314815, Range = 1.50917949118661
 
 * FastFourierTransformBodyGyroscopeMeanFrequencyXaxis
   -
   -
-  -
+  - -0.395770150677419 to 0.249209411510602, Range = 0.644979562188021
 
 * FastFourierTransformBodyGyroscopeMeanFrequencyYaxis
   -
   -
-  -
+  - -0.666814815306122 to 0.273141323315789, Range = 0.939956138621911
 
 * FastFourierTransformBodyGyroscopeMeanFrequencyZaxis
   -
   -
-  -
+  - -0.507490866734694 to 0.3770740968, Range = 0.884564963534694
 
 * FastFourierTransformBodyAccelerometerMagnitudeMean
   -
   -
-  -
+  - -0.986800645362319 to 0.586637550769231, Range = 1.57343819613155
 
 * FastFourierTransformBodyAccelerometerMagnitudeStandardDeviation
   -
   -
-  -
+  - -0.987648484461539 to 0.178684580868889, Range = 1.16633306533043
 
 * FastFourierTransformBodyAccelerometerMagnitudeMeanFrequency
   -
   -
-  -
+  - -0.312338030213846 to 0.435846931652174, Range = 0.74818496186602
 
 * FastFourierTransformBodyBodyAccelerometerJerkMagnitudeMean
   -
   -
-  -
+  - -0.993998275797101 to 0.538404846128205, Range = 1.53240312192531
 
 * FastFourierTransformBodyBodyAccelerometerJerkMagnitudeStandardDeviation
   -
   -
-  -
+  - -0.994366667681159 to 0.316346415348718, Range = 1.31071308302988
 
 * FastFourierTransformBodyBodyAccelerometerJerkMagnitudeMeanFrequency
   -
   -
-  -
+  - -0.125210388757581 to 0.488088499666667, Range = 0.613298888424248
 
 * FastFourierTransformBodyBodyGyroscopeMagnitudeMean
   -
   -
-  -
+  - -0.986535242105263 to 0.203979764835897, Range = 1.19051500694116
 
 * FastFourierTransformBodyBodyGyroscopeMagnitudeStandardDeviation
   -
   -
-  -
+  - -0.981468841692308 to 0.236659662496296, Range = 1.2181285041886
 
 * FastFourierTransformBodyBodyGyroscopeMagnitudeMeanFrequency
   -
   -
-  -
+  - -0.456638670923077 to 0.409521611525424, Range = 0.866160282448501
 
 * FastFourierTransformBodyBodyGyroscopeJerkMagnitudeMean
   -
   -
-  -
+  - -0.997617389275362 to 0.146618569064407, Range = 1.14423595833977
 
 * FastFourierTransformBodyBodyGyroscopeJerkMagnitudeStandardDeviation
   -
   -
-  -
+  - -0.99758523057971 to 0.287834616098305, Range = 1.28541984667802
 
 * FastFourierTransformBodyBodyGyroscopeJerkMagnitudeMeanFrequency
   -
   -
-  -
+  - -0.182923596577778 to 0.426301679855072, Range = 0.60922527643285
 
 * TimeDomainAccelerometerMeanGravity
   -
   -
-  -
+  - -0.163042575021277 to 0.129153963587755, Range = 0.292196538609032
 
 * TimeDomainBodyAccelerometerJerkMean
   -
   -
-  -
+  - -0.120553975717391 to 0.203259965863014, Range = 0.323813941580405
 
 * TimeDomainBodyGyroscopeMeanGravityMean
   -
   -
-  -
+  - -0.389305120341463 to 0.444101172307692, Range = 0.833406292649155
 
 * TimeDomainGyroscopeJerkMeanGravityMean
   -
   -
-  -
+  - -0.223672056052174 to 0.182384802705085, Range = 0.406056858757259
 
 * XaxisGravityMean
   -
   -
-  -
+  - -0.947116527659574 to 0.737784354819277, Range = 1.68490088247885
 
 * YaxisGravityMean
   -
   -
-  -
+  - -0.874567701929825 to 0.42476122745098, Range = 1.29932892938081
 
 * ZaxisGravityMean
   -
   -
-  -
+  - -0.873649367 to 0.390444368518519, Range = 1.26409373551852
