@@ -14,9 +14,12 @@ www.smartlab.ws
 
 Download link: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring web pages (click the **Help** toolbar button for more details on using R Markdown).
+The purpose of the run_analysis.R function is to merge and clean files from the UCI HAR Dataset
+by subsetting the mean and standard deviation variables in the data set, making the activities and
+variables more readable for the user, and aggregating the data set to find the average of each variable
+for each activity and subject. More information can be found in the README.md file in the repository at
+https://github.com/moorejm/Getting-and-Cleaning-Data.
 
-When you click the **Knit HTML** button a web page will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
 
 ```{r, echo=FALSE, message=FALSE}
 # This R function is designed to merge and clean the UCI HAR Dataset
