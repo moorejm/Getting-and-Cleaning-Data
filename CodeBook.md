@@ -26,34 +26,34 @@ about the data set used in the analysis can be found in the README.txt file incl
 ### Codebook Format
 
 * Variable Name
-  - Variable Position, Definition
-  - Variable Length, Type
-  - List/Range of Values
+  - Variable Position/Definition (as [Position] Definition)
+  - Variable Length, Type (as Min Length to Max Length, Data Type)
+  - List/Range of Values (as Min to Max, Range = Max-Min)
 
 ### Codebook
 
 * Activity
-  - test
+  - [1] Activity description
   - test
   - test
 
 * Subject
-  - test
+  - [2] Subject number
   - test
   - Integers 1-30
 
 * TimeDomainBodyAccelerometerMeanXaxis
-  -
+  - [3] Time domain signal: body accelerometer mean for the X axis measurement
   - 10 to 17, numeric
   - 0.22159824394 to 0.3014610196, Range = 0.07986277566
 
 * TimeDomainBodyAccelerometerMeanYaxis
-  -
+  - [4] Time domain signal: body accelerometer mean for the Y axis measurement
   - 14 to 20, numeric
   - -0.0405139534294 to -0.00130828765170213, Range = 0.0392056657776979
 
 * TimeDomainBodyAccelerometerMeanZaxis
-  -
+  - [5] Time domain signal: body accelerometer mean for the Z axis measurement
   - 13 to 19, numeric
   - -0.152513899520833 to -0.07537846886, Range = 0.077135430660833
 
