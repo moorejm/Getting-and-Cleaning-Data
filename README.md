@@ -1,4 +1,4 @@
-# Coursera Getting and Cleaning Data Course Project Readme
+## Coursera Getting and Cleaning Data Course Project Readme
 ### Introduction
 The purpose of this ReadMe file is to describe the functionality of the run_analysis.R file found in this repo (https://github.com/moorejm/Getting-and-Cleaning-Data). The source of the data used for the run_analysis function can be found at the UCI Machine Learning Repository webpage, http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones, and the data set can be downloaded at https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.
 
