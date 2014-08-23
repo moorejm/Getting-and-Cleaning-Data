@@ -4,8 +4,9 @@
 This codebook refers to the file run_analysis.R in the repository at 
 https://github.com/moorejm/Getting-and-Cleaning-Data.
 
-The data set used for this analysis is originally from the UCI Machine Learning Repository
-at: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+The data set used for this analysis is from the UCI Machine Learning Repository
+at: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones,
+download link: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 Source:
 Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
@@ -13,8 +14,6 @@ Smartlab - Non Linear Complex Systems Laboratory
 DITEN - UniversitÃ  degli Studi di Genova, Genoa I-16145, Italy.
 activityrecognition '@' smartlab.ws
 www.smartlab.ws 
-
-Download link: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 The purpose of the run_analysis.R function is to merge and clean the "train" and "test" data from the 
 UCI HAR Dataset by subsetting the mean and standard deviation variables in the data set, making the 
