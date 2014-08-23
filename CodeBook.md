@@ -28,7 +28,7 @@ about the data set used in the analysis can be found in the README.txt file incl
 * Variable Name
   - Variable Length
   - Variable Definition
-  - Range of Values
+  - List/Range of Values
 
 ### Codebook
 
@@ -45,17 +45,17 @@ about the data set used in the analysis can be found in the README.txt file incl
 * TimeDomainBodyAccelerometerMeanXaxis
   -
   -
-  -
+  - 0.22159824394 to 0.3014610196, Range = 0.07986277566
 
 * TimeDomainBodyAccelerometerMeanYaxis
   -
   -
-  -
+  - -0.0405139534294 to -0.00130828765170213, Range = 0.0392056657776979
 
 * TimeDomainBodyAccelerometerMeanZaxis
   -
   -
-  -
+  - -0.152513899520833 to -0.07537846886, Range = 0.077135430660833
 
 * TimeDomainBodyAccelerometerStandardDeviationXaxis
   -
