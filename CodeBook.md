@@ -26,20 +26,20 @@ about the data set used in the analysis can be found in the README.txt file incl
 ### Codebook Format
 
 * Variable Name
-  - Variable Position/Definition (as [Position] Definition)
+  - Variable Column Position/Definition (as [Column Position] Definition)
   - Variable Length, Type (as Min Length to Max Length, Data Type)
-  - List/Range of Values (as Min to Max, Range = Max-Min)
+  - List/Range of Values (as List or Min to Max, Range = Max-Min)
 
 ### Codebook
 
 * Activity
   - [1] Activity description
-  - test
-  - test
+  - 6 to 18, character
+  - Values: LAYING, SITTING, STANDING, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS
 
 * Subject
   - [2] Subject number
-  - test
+  - 1 to 2, numeric
   - Integers 1-30
 
 * TimeDomainBodyAccelerometerMeanXaxis
@@ -58,418 +58,416 @@ about the data set used in the analysis can be found in the README.txt file incl
   - -0.152513899520833 to -0.07537846886, Range = 0.077135430660833
 
 * TimeDomainBodyAccelerometerStandardDeviationXaxis
-  -
+  - [6] Time domain signal: body accelerometer standard deviation for the X axis measurement
   - 11 to 20, numeric
   - -0.996068635384615 to 0.626917070512821, Range = 1.62298570589744
 
 * TimeDomainBodyAccelerometerStandardDeviationYaxis
-  -
+  - [7] Time domain signal: body accelerometer standard deviation for the Y axis measurement
   - 11 to 20, numeric
-
   - -0.990240946666667 to 0.616937015333333, Range = 1.607177962
 
 * TimeDomainBodyAccelerometerStandardDeviationZaxis
-  -
+  - [8] Time domain signal: body accelerometer standard deviation for the Z axis measurement
   - 12 to 20, numeric
   - -0.987658662307692 to 0.609017879074074, Range = 1.59667654138177
 
 * TimeDomainGravityAccelerometerMeanXaxis
-  -
+  - [9] Time domain signal: gravity accelerometer mean for the X axis measurement
   - 10 to 18, numeric
   - -0.680043155060241 to 0.974508732, Range = 1.65455188706024
 
 * TimeDomainGravityAccelerometerMeanYaxis
-  -
+  - [10] Time domain signal: gravity accelerometer mean for the Y axis measurement
   - 10 to 19, numeric
   - -0.479894842941176 to 0.956593814210526, Range = 1.4364886571517
 
 * TimeDomainGravityAccelerometerMeanZaxis
-  -
+  - [11] Time domain signal: gravity accelerometer mean for the Z axis measurement
   - 10 to 20, numeric
   - -0.49508872037037 to 0.9578730416, Range = 1.45296176197037
 
 * TimeDomainGravityAccelerometerStandardDeviationXaxis
-  -
+  - [12] Time domain signal: gravity accelerometer standard deviation for the X axis measurement
   - 11 to 18, numeric
   - -0.996764227384615 to -0.829554947808219, Range = 0.167209279576396
 
 * TimeDomainGravityAccelerometerStandardDeviationYaxis
-  -
+  - [13] Time domain signal: gravity accelerometer standard deviation for the Y axis measurement
   - 11 to 18, numeric
   - -0.99424764884058 to -0.643578361424658, Range = 0.350669287415922
 
 * TimeDomainGravityAccelerometerStandardDeviationZaxis
-  -
+  - [14] Time domain signal: gravity accelerometer standard deviation for the Z axis measurement
   - 11 to 18, numeric
   - -0.990957249538462 to -0.610161166287671, Range = 0.380796083250791
 
 * TimeDomainBodyAccelerometerJerkMeanXaxis
-  -
+  - [15] Time domain signal: body accelerometer jerk signal mean for the X axis measurement
   - 10 to 18, numeric
   - 0.0426880986186441 to 0.130193043809524, Range = 0.0875049451908799
 
 * TimeDomainBodyAccelerometerJerkMeanYaxis
-  -
+  - [16] Time domain signal: body accelerometer jerk signal mean for the Y axis measurement
   - 12 to 21, numeric
   - -0.0386872111282051 to 0.056818586275, Range = 0.0955057974032051
 
 * TimeDomainBodyAccelerometerJerkMeanZaxis
-  -
+  - [17] Time domain signal: body accelerometer jerk signal mean for the Z axis measurement
   - 11 to 21, numeric
   - -0.0674583919268293 to 0.0380533591627451, Range = 0.105511751089574
 
 * TimeDomainBodyAccelerometerJerkStandardDeviationXaxis
-  -
+  - [18] Time domain signal: body accelerometer jerk signal standard deviation for the X axis measurement
   - 11 to 20, numeric
   - -0.994604542264151 to 0.544273037307692, Range = 1.53887757957184
 
 * TimeDomainBodyAccelerometerJerkStandardDeviationYaxis
-  -
+  - [19] Time domain signal: body accelerometer jerk signal standard deviation for the Y axis measurement
   - 10 to 19, numeric
   - -0.989513565652174 to 0.355306716915385, Range = 1.34482028256756
 
 * TimeDomainBodyAccelerometerJerkStandardDeviationZaxis
-  -
+  - [20] Time domain signal: body accelerometer jerk signal standard deviation for the Z axis measurement
   - 10 to 19, numeric
   - -0.993288313333333 to 0.0310157077775926, Range = 1.02430402111093
 
 * TimeDomainBodyGyroscopeMeanXaxis
-  -
+  - [21] Time domain signal: body gyroscope mean for the X axis measurement
   - 11 to 20, numeric
   - -0.205775427307692 to 0.19270447595122, Range = 0.398479903258912
 
 * TimeDomainBodyGyroscopeMeanYaxis
-  -
+  - [22] Time domain signal: body gyroscope mean for the Y axis measurement
   - 12 to 20, numeric
   - -0.204205356087805 to 0.0274707556666667, Range = 0.231676111754472
 
 * TimeDomainBodyGyroscopeMeanZaxis
-  -
+  - [23] Time domain signal: body gyroscope mean for the Z axis measurement
   - 11 to 21, numeric
   - -0.0724546025804878 to 0.179102058245614, Range = 0.251556660826102
 
 * TimeDomainBodyGyroscopeStandardDeviationXaxis
-  -
+  - [24] Time domain signal: body gyroscope standard deviation for the X axis measurement
   - 12 to 19, numeric
   - -0.994276591304348 to 0.267657219333333, Range = 1.26193381063768
 
 * TimeDomainBodyGyroscopeStandardDeviationYaxis
-  -
+  - [25] Time domain signal: body gyroscope standard deviation for the Y axis measurement
   - 11 to 19, numeric
   - -0.994210471914894 to 0.476518714444444, Range = 1.47072918635934
 
 * TimeDomainBodyGyroscopeStandardDeviationZaxis
-  -
+  - [26] Time domain signal: body gyroscope standard deviation for the Z axis measurement
   - 11 to 19, numeric
   - -0.985538363333333 to 0.564875818162963, Range = 1.5504141814963
 
 * TimeDomainBodyGyroscopeJerkMeanXaxis
-  -
+  - [27] Time domain signal: body gyroscope jerk signal mean for the X axis measurement
   - 12 to 19, numeric
   - -0.157212539189362 to -0.0220916265065217, Range = 0.13512091268284
 
 * TimeDomainBodyGyroscopeJerkMeanYaxis
-  -
+  - [28] Time domain signal: body gyroscope jerk signal mean for the Y axis measurement
   - 12 to 19, numeric
   - -0.0768089915604167 to -0.0132022768074468, Range = 0.0636067147529699
 
 * TimeDomainBodyGyroscopeJerkMeanZaxis
-  -
+  - [29] Time domain signal: body gyroscope jerk signal mean for the Z axis measurement
   - 11 to 20, numeric
   - -0.0924998531372549 to -0.00694066389361702, Range = 0.0855591892436379
 
 * TimeDomainBodyGyroscopeJerkStandardDeviationXaxis
-  -
+  - [30] Time domain signal: body gyroscope jerk signal standard deviation for the X axis measurement
   - 12 to 18, numeric
   - -0.99654254057971 to 0.179148649684615, Range = 1.17569119026433
 
 * TimeDomainBodyGyroscopeJerkStandardDeviationYaxis
-  -
+  - [31] Time domain signal: body gyroscope jerk signal standard deviation for the Y axis measurement
   - 11 to 19, numeric
   - -0.997081575652174 to 0.295945926186441, Range = 1.29302750183862
 
 * TimeDomainBodyGyroscopeJerkStandardDeviationZaxis
-  -
+  - [32] Time domain signal: body gyroscope jerk signal standard deviation for the Z axis measurement
   - 11 to 19, numeric
   - -0.995380794637681 to 0.193206498960417, Range = 1.1885872935981
 
 * TimeDomainBodyAccelerometerMagnitudeMean
-  -
+  - [33] Time domain signal: body accelerometer magnitude mean 
   - 11 to 21, numeric
   - -0.986493196666667 to 0.644604325128205, Range = 1.63109752179487
 
 * TimeDomainBodyAccelerometerMagnitudeStandardDeviation
-  -
+  - [34] Time domain signal: body accelerometer magnitude standard deviation 
   - 10 to 19, numeric
   - -0.986464542615385 to 0.428405922622222, Range = 1.41487046523761
 
 * TimeDomainGravityAccelerometerMagnitudeMean
-  -
+  - [35] Time domain signal: gravity accelerometer magnitude mean 
   - 11 to 21, numeric
   - -0.986493196666667 to 0.644604325128205, Range = 1.63109752179487
 
 * TimeDomainGravityAccelerometerMagnitudeStandardDeviation
-  -
+  - [36] Time domain signal: gravity accelerometer magnitude standard deviation 
   - 10 to 19, numeric
   - -0.986464542615385 to 0.428405922622222, Range = 1.41487046523761
 
 * TimeDomainBodyAccelerometerJerkMagnitudeMean
-  -
+  - [37] Time domain signal: body accelerometer jerk signal magnitude mean 
   - 11 to 19, numeric
   - -0.99281471515625 to 0.434490400974359, Range = 1.42730511613061
 
-
 * TimeDomainBodyAccelerometerJerkMagnitudeStandardDeviation
-  -
+  - [38] Time domain signal: body accelerometer jerk signal magnitude standard deviation 
   - 11 to 19, numeric
   - -0.994646916811594 to 0.450612065720513, Range = 1.44525898253211
 
 * TimeDomainBodyGyroscopeMagnitudeMean
-  -
+  - [39] Time domain signal: body gyroscope magnitude mean 
   - 10 to 19, numeric
   - -0.980740846769231 to 0.418004608615385, Range = 1.39874545538462
 
 * TimeDomainBodyGyroscopeMagnitudeStandardDeviation
-  -
+  - [40] Time domain signal: body gyroscope magnitude standard deviation 
   - 12 to 19, numeric
   - -0.981372675614035 to 0.299975979851852, Range = 1.28134865546589
 
 * TimeDomainBodyGyroscopeJerkMagnitudeMean
-  -
+  - [41] Time domain signal: body gyroscope jerk signal magnitude mean 
   - 11 to 19, numeric
   - -0.997322526811594 to 0.0875816618205128, Range = 1.08490418863211
 
 * TimeDomainBodyGyroscopeJerkMagnitudeStandardDeviation
-  -
+  - [42] Time domain signal: body gyroscope jerk signal magnitude standard deviation 
   - 11 to 19, numeric
   - -0.997666071594203 to 0.250173204117966, Range = 1.24783927571217
 
 * FastFourierTransformBodyAccelerometerMeanXaxis
-  -
+  - [43] Fast fourier transform applied: body accelerometer mean for the X axis measurement
   - 11 to 19, numeric
   - -0.995249932641509 to 0.537012022051282, Range = 1.53226195469279
 
 * FastFourierTransformBodyAccelerometerMeanYaxis
-  -
+  - [44] Fast fourier transform applied: body accelerometer mean for the Y axis measurement
   - 10 to 20, numeric
   - -0.989034304057971 to 0.524187686888889, Range = 1.51322199094686
 
 * FastFourierTransformBodyAccelerometerMeanZaxis
-  -
+  - [45] Fast fourier transform applied: body accelerometer mean for the Z axis measurement
   - 11 to 19, numeric
   - -0.989473926666667 to 0.280735952206667, Range = 1.27020987887333
 
 * FastFourierTransformBodyAccelerometerStandardDeviationXaxis
-  -
+  - [46] Fast fourier transform applied: body accelerometer standard deviation for the X axis measurement
   - 11 to 20, numeric
   - -0.996604570307692 to 0.658506543333333, Range = 1.65511111364103
 
 * FastFourierTransformBodyAccelerometerStandardDeviationYaxis
-  -
+  - [47] Fast fourier transform applied: body accelerometer standard deviation for the Y axis measurement
   - 10 to 20, numeric
   - -0.990680395362319 to 0.560191344, Range = 1.55087173936232
 
 * FastFourierTransformBodyAccelerometerStandardDeviationZaxis
-  -
+  - [48] Fast fourier transform applied: body accelerometer standard deviation for the Z axis measurement
   - 11 to 19, numeric
   - -0.987224804307692 to 0.687124163703704, Range = 1.6743489680114
 
 * FastFourierTransformBodyAccelerometerMeanFrequencyXaxis
-  -
+  - [49] Fast fourier transform applied: body accelerometer mean frequency for the X axis measurement
   - 12 to 21, numeric
   - -0.635913046346154 to 0.159123629063636, Range = 0.79503667540979
 
 * FastFourierTransformBodyAccelerometerMeanFrequencyYaxis
-  -
+  - [50] Fast fourier transform applied: body accelerometer mean frequency for the Y axis measurement
   - 12 to 20, numeric
   - -0.379518455061538 to 0.466528231788462, Range = 0.84604668685
 
 * FastFourierTransformBodyAccelerometerMeanFrequencyZaxis
-  -
+  - [51] Fast fourier transform applied: body accelerometer mean frequency for the Z axis measurement
   - 11 to 20, numeric
   - -0.520114793584906 to 0.402532553395833, Range = 0.922647346980739
 
 * FastFourierTransformBodyAccelerometerJerkMeanXaxis
-  -
+  - [52] Fast fourier transform applied: body accelerometer jerk signal mean for the X axis measurement
   - 11 to 20, numeric
   - -0.994630797358491 to 0.474317256051282, Range = 1.46894805340977
 
 * FastFourierTransformBodyAccelerometerJerkMeanYaxis
-  -
+  - [53] Fast fourier transform applied: body accelerometer jerk signal mean for the Y axis measurement
   - 11 to 20, numeric
   - -0.989398823913043 to 0.276716853307692, Range = 1.26611567722074
 
 * FastFourierTransformBodyAccelerometerJerkMeanZaxis
-  -
+  - [54] Fast fourier transform applied: body accelerometer jerk signal mean for the Z axis measurement
   - 11 to 19, numeric
   - -0.992018447826087 to 0.157775692377778, Range = 1.14979414020386
 
 * FastFourierTransformBodyAccelerometerJerkStandardDeviationXaxis
-  -
+  - [55] Fast fourier transform applied: body accelerometer jerk signal standard deviation for the X axis measurement
   - 11 to 20, numeric
   - -0.995073759245283 to 0.476803887476923, Range = 1.47187764672221
 
 * FastFourierTransformBodyAccelerometerJerkStandardDeviationYaxis
-  -
+  - [56] Fast fourier transform applied: body accelerometer jerk signal standard deviation for the Y axis measurement
   - 11 to 20, numeric
   - -0.990468082753623 to 0.349771285415897, Range = 1.34023936816952
 
 * FastFourierTransformBodyAccelerometerJerkStandardDeviationZaxis
-  -
+  - [57] Fast fourier transform applied: body accelerometer jerk signal standard deviation for the Z axis measurement
   - 11 to 20, numeric
   - -0.993107759855072 to -0.00623647528983051, Range = 0.986871284565242
 
 * FastFourierTransformBodyAccelerometerJerkMeanFrequencyXaxis
-  -
+  - [58] Fast fourier transform applied: body accelerometer jerk signal mean frequency for the X axis measurement
   - 11 to 19, numeric
   - -0.576044001875 to 0.331449281481482, Range = 0.907493283356482
 
 * FastFourierTransformBodyAccelerometerJerkMeanFrequencyYaxis
-  -
+  - [59] Fast fourier transform applied: body accelerometer jerk signal mean frequency for the Y axis measurement
   - 13 to 20, numeric
   - -0.601971415384615 to 0.195677336307692, Range = 0.797648751692307
 
 * FastFourierTransformBodyAccelerometerJerkMeanFrequencyZaxis
-  -
+  - [60] Fast fourier transform applied: body accelerometer jerk signal mean frequency for the Z axis measurement
   - 11 to 20, numeric
   - -0.62755547372549 to 0.230107945944444, Range = 0.857663419669934
 
 * FastFourierTransformBodyGyroscopeMeanXaxis
-  -
+  - [61] Fast fourier transform applied: body gyroscope mean for the X axis measurement
   - 11 to 19, numeric
   - -0.99312260884058 to 0.474962448333333, Range = 1.46808505717391
 
 * FastFourierTransformBodyGyroscopeMeanYaxis
-  -
+  - [62] Fast fourier transform applied: body gyroscope mean for the Y axis measurement
   - 11 to 19, numeric
   - -0.994025488297872 to 0.328817010088889, Range = 1.32284249838676
 
 * FastFourierTransformBodyGyroscopeMeanZaxis
-  -
+  - [63] Fast fourier transform applied: body gyroscope mean for the Z axis measurement
   - 11 to 19, numeric
   - -0.985957788 to 0.492414379822222, Range = 1.47837216782222
 
 * FastFourierTransformBodyGyroscopeStandardDeviationXaxis
-  -
+  - [64] Fast fourier transform applied: body gyroscope standard deviation for the X axis measurement
   - 11 to 18, numeric
   - -0.994652185217391 to 0.196613286661538, Range = 1.19126547187893
 
 * FastFourierTransformBodyGyroscopeStandardDeviationYaxis
-  -
+  - [65] Fast fourier transform applied: body gyroscope standard deviation for the Y axis measurement
   - 11 to 19, numeric
   - -0.994353086595745 to 0.646233637037037, Range = 1.64058672363278
 
 * FastFourierTransformBodyGyroscopeStandardDeviationZaxis
-  -
+  - [66] Fast fourier transform applied: body gyroscope standard deviation for the Z axis measurement
   - 10 to 19, numeric
   - -0.986725274871795 to 0.522454216314815, Range = 1.50917949118661
 
 * FastFourierTransformBodyGyroscopeMeanFrequencyXaxis
-  -
+  - [67] Fast fourier transform applied: body gyroscope mean frequency for the X axis measurement
   - 12 to 20, numeric
   - -0.395770150677419 to 0.249209411510602, Range = 0.644979562188021
 
 * FastFourierTransformBodyGyroscopeMeanFrequencyYaxis
-  -
+  - [68] Fast fourier transform applied: body gyroscope mean frequency for the Y axis measurement
   - 12 to 20, numeric
   - -0.666814815306122 to 0.273141323315789, Range = 0.939956138621911
 
 * FastFourierTransformBodyGyroscopeMeanFrequencyZaxis
-  -
+  - [69] Fast fourier transform applied: body gyroscope mean frequency for the Z axis measurement
   - 11 to 20, numeric
   - -0.507490866734694 to 0.3770740968, Range = 0.884564963534694
 
 * FastFourierTransformBodyAccelerometerMagnitudeMean
-  -
+  - [70] Fast fourier transform applied: body accelerometer magnitude mean 
   - 11 to 20, numeric
   - -0.986800645362319 to 0.586637550769231, Range = 1.57343819613155
 
 * FastFourierTransformBodyAccelerometerMagnitudeStandardDeviation
-  -
+  - [71] Fast fourier transform applied: body accelerometer magnitude standard deviation 
   - 11 to 20, numeric
   - -0.987648484461539 to 0.178684580868889, Range = 1.16633306533043
 
 * FastFourierTransformBodyAccelerometerMagnitudeMeanFrequency
-  -
+  - [72] Fast fourier transform applied: body accelerometer magnitude mean frequency 
   - 10 to 21, numeric
   - -0.312338030213846 to 0.435846931652174, Range = 0.74818496186602
 
 * FastFourierTransformBodyBodyAccelerometerJerkMagnitudeMean
-  -
+  - [73] Fast fourier transform applied: body body accelerometer jerk signal magnitude mean 
   - 12 to 20, numeric
   - -0.993998275797101 to 0.538404846128205, Range = 1.53240312192531
 
 * FastFourierTransformBodyBodyAccelerometerJerkMagnitudeStandardDeviation
-  -
+  - [74] Fast fourier transform applied: body body accelerometer jerk signal magnitude standard deviation 
   - 11 to 19, numeric
   - -0.994366667681159 to 0.316346415348718, Range = 1.31071308302988
 
 * FastFourierTransformBodyBodyAccelerometerJerkMagnitudeMeanFrequency
-  -
+  - [75] Fast fourier transform applied: body body accelerometer jerk signal magnitude mean frequency 
   - 12 to 21, numeric
   - -0.125210388757581 to 0.488088499666667, Range = 0.613298888424248
 
 * FastFourierTransformBodyBodyGyroscopeMagnitudeMean
-  -
+  - [76] Fast fourier transform applied: body body gyroscope magnitude mean 
   - 9 to 20, numeric
   - -0.986535242105263 to 0.203979764835897, Range = 1.19051500694116
 
 * FastFourierTransformBodyBodyGyroscopeMagnitudeStandardDeviation
-  -
+  - [77] Fast fourier transform applied: body body gyroscope magnitude standard deviation 
   - 9 to 18, numeric
   - -0.981468841692308 to 0.236659662496296, Range = 1.2181285041886
 
 * FastFourierTransformBodyBodyGyroscopeMagnitudeMeanFrequency
-  -
+  - [78] Fast fourier transform applied: body body gyroscope magnitude mean frequency 
   - 13 to 21, numeric
   - -0.456638670923077 to 0.409521611525424, Range = 0.866160282448501
 
 * FastFourierTransformBodyBodyGyroscopeJerkMagnitudeMean
-  -
+  - [79] Fast fourier transform applied: body body gyroscope jerk signal magnitude mean 
   - 11 to 19, numeric
   - -0.997617389275362 to 0.146618569064407, Range = 1.14423595833977
 
 * FastFourierTransformBodyBodyGyroscopeJerkMagnitudeStandardDeviation
-  -
+  - [80] Fast fourier transform applied: body body gyroscope jerk signal magnitude standard deviation 
   - 10 to 19, numeric
   - -0.99758523057971 to 0.287834616098305, Range = 1.28541984667802
 
 * FastFourierTransformBodyBodyGyroscopeJerkMagnitudeMeanFrequency
-  -
+  - [81] Fast fourier transform applied: body body gyroscope jerk signal magnitude mean frequency 
   - 11 to 21, numeric
   - -0.182923596577778 to 0.426301679855072, Range = 0.60922527643285
 
 * TimeDomainAccelerometerMeanGravity
-  -
+  - [82] Time domain signal: angle between body and gravity accelerometer mean measurements
   - 11 to 21, numeric
   - -0.163042575021277 to 0.129153963587755, Range = 0.292196538609032
 
 * TimeDomainBodyAccelerometerJerkMean
-  -
+  - [83] Time domain signal: angle between body and gravity accelerometer jerk signal mean measurements
   - 11 to 21, numeric
   - -0.120553975717391 to 0.203259965863014, Range = 0.323813941580405
 
 * TimeDomainBodyGyroscopeMeanGravityMean
-  -
+  - [84] Time domain signal: angle between body and gravity gyroscope mean measurements
   - 11 to 21, numeric
   - -0.389305120341463 to 0.444101172307692, Range = 0.833406292649155
 
 * TimeDomainGyroscopeJerkMeanGravityMean
-  -
+  - [85] Time domain signal: angle between body and gravity gyroscope jerk signal mean measurements
   - 12 to 21, numeric
   - -0.223672056052174 to 0.182384802705085, Range = 0.406056858757259
 
 * XaxisGravityMean
-  -
+  - [86] Gravity mean for X axis measurements
   - 11 to 18, numeric
   - -0.947116527659574 to 0.737784354819277, Range = 1.68490088247885
 
 * YaxisGravityMean
-  -
+  - [87] Gravity mean for Y axis measurements
   - 10 to 21, numeric
   - -0.874567701929825 to 0.42476122745098, Range = 1.29932892938081
 
 * ZaxisGravityMean
-  -
+  - [88] Gravity mean for Z axis measurements
   - 11 to 21, numeric
   - -0.873649367 to 0.390444368518519, Range = 1.26409373551852
