@@ -242,197 +242,197 @@ about the data set used in the analysis can be found in the README.txt file incl
   - -0.997666071594203 to 0.250173204117966, Range = 1.24783927571217
 
 * FastFourierTransformBodyAccelerometerMeanXaxis
-  - [43] Fast fourier transform applied: body accelerometer mean for the X axis measurement
+  - [43] Fast Fourier transform applied: body accelerometer mean for the X axis measurement
   - 11 to 19, numeric
   - -0.995249932641509 to 0.537012022051282, Range = 1.53226195469279
 
 * FastFourierTransformBodyAccelerometerMeanYaxis
-  - [44] Fast fourier transform applied: body accelerometer mean for the Y axis measurement
+  - [44] Fast Fourier transform applied: body accelerometer mean for the Y axis measurement
   - 10 to 20, numeric
   - -0.989034304057971 to 0.524187686888889, Range = 1.51322199094686
 
 * FastFourierTransformBodyAccelerometerMeanZaxis
-  - [45] Fast fourier transform applied: body accelerometer mean for the Z axis measurement
+  - [45] Fast Fourier transform applied: body accelerometer mean for the Z axis measurement
   - 11 to 19, numeric
   - -0.989473926666667 to 0.280735952206667, Range = 1.27020987887333
 
 * FastFourierTransformBodyAccelerometerStandardDeviationXaxis
-  - [46] Fast fourier transform applied: body accelerometer standard deviation for the X axis measurement
+  - [46] Fast Fourier transform applied: body accelerometer standard deviation for the X axis measurement
   - 11 to 20, numeric
   - -0.996604570307692 to 0.658506543333333, Range = 1.65511111364103
 
 * FastFourierTransformBodyAccelerometerStandardDeviationYaxis
-  - [47] Fast fourier transform applied: body accelerometer standard deviation for the Y axis measurement
+  - [47] Fast Fourier transform applied: body accelerometer standard deviation for the Y axis measurement
   - 10 to 20, numeric
   - -0.990680395362319 to 0.560191344, Range = 1.55087173936232
 
 * FastFourierTransformBodyAccelerometerStandardDeviationZaxis
-  - [48] Fast fourier transform applied: body accelerometer standard deviation for the Z axis measurement
+  - [48] Fast Fourier transform applied: body accelerometer standard deviation for the Z axis measurement
   - 11 to 19, numeric
   - -0.987224804307692 to 0.687124163703704, Range = 1.6743489680114
 
 * FastFourierTransformBodyAccelerometerMeanFrequencyXaxis
-  - [49] Fast fourier transform applied: body accelerometer mean frequency for the X axis measurement
+  - [49] Fast Fourier transform applied: body accelerometer mean frequency for the X axis measurement
   - 12 to 21, numeric
   - -0.635913046346154 to 0.159123629063636, Range = 0.79503667540979
 
 * FastFourierTransformBodyAccelerometerMeanFrequencyYaxis
-  - [50] Fast fourier transform applied: body accelerometer mean frequency for the Y axis measurement
+  - [50] Fast Fourier transform applied: body accelerometer mean frequency for the Y axis measurement
   - 12 to 20, numeric
   - -0.379518455061538 to 0.466528231788462, Range = 0.84604668685
 
 * FastFourierTransformBodyAccelerometerMeanFrequencyZaxis
-  - [51] Fast fourier transform applied: body accelerometer mean frequency for the Z axis measurement
+  - [51] Fast Fourier transform applied: body accelerometer mean frequency for the Z axis measurement
   - 11 to 20, numeric
   - -0.520114793584906 to 0.402532553395833, Range = 0.922647346980739
 
 * FastFourierTransformBodyAccelerometerJerkMeanXaxis
-  - [52] Fast fourier transform applied: body accelerometer jerk signal mean for the X axis measurement
+  - [52] Fast Fourier transform applied: body accelerometer jerk signal mean for the X axis measurement
   - 11 to 20, numeric
   - -0.994630797358491 to 0.474317256051282, Range = 1.46894805340977
 
 * FastFourierTransformBodyAccelerometerJerkMeanYaxis
-  - [53] Fast fourier transform applied: body accelerometer jerk signal mean for the Y axis measurement
+  - [53] Fast Fourier transform applied: body accelerometer jerk signal mean for the Y axis measurement
   - 11 to 20, numeric
   - -0.989398823913043 to 0.276716853307692, Range = 1.26611567722074
 
 * FastFourierTransformBodyAccelerometerJerkMeanZaxis
-  - [54] Fast fourier transform applied: body accelerometer jerk signal mean for the Z axis measurement
+  - [54] Fast Fourier transform applied: body accelerometer jerk signal mean for the Z axis measurement
   - 11 to 19, numeric
   - -0.992018447826087 to 0.157775692377778, Range = 1.14979414020386
 
 * FastFourierTransformBodyAccelerometerJerkStandardDeviationXaxis
-  - [55] Fast fourier transform applied: body accelerometer jerk signal standard deviation for the X axis measurement
+  - [55] Fast Fourier transform applied: body accelerometer jerk signal standard deviation for the X axis measurement
   - 11 to 20, numeric
   - -0.995073759245283 to 0.476803887476923, Range = 1.47187764672221
 
 * FastFourierTransformBodyAccelerometerJerkStandardDeviationYaxis
-  - [56] Fast fourier transform applied: body accelerometer jerk signal standard deviation for the Y axis measurement
+  - [56] Fast Fourier transform applied: body accelerometer jerk signal standard deviation for the Y axis measurement
   - 11 to 20, numeric
   - -0.990468082753623 to 0.349771285415897, Range = 1.34023936816952
 
 * FastFourierTransformBodyAccelerometerJerkStandardDeviationZaxis
-  - [57] Fast fourier transform applied: body accelerometer jerk signal standard deviation for the Z axis measurement
+  - [57] Fast Fourier transform applied: body accelerometer jerk signal standard deviation for the Z axis measurement
   - 11 to 20, numeric
   - -0.993107759855072 to -0.00623647528983051, Range = 0.986871284565242
 
 * FastFourierTransformBodyAccelerometerJerkMeanFrequencyXaxis
-  - [58] Fast fourier transform applied: body accelerometer jerk signal mean frequency for the X axis measurement
+  - [58] Fast Fourier transform applied: body accelerometer jerk signal mean frequency for the X axis measurement
   - 11 to 19, numeric
   - -0.576044001875 to 0.331449281481482, Range = 0.907493283356482
 
 * FastFourierTransformBodyAccelerometerJerkMeanFrequencyYaxis
-  - [59] Fast fourier transform applied: body accelerometer jerk signal mean frequency for the Y axis measurement
+  - [59] Fast Fourier transform applied: body accelerometer jerk signal mean frequency for the Y axis measurement
   - 13 to 20, numeric
   - -0.601971415384615 to 0.195677336307692, Range = 0.797648751692307
 
 * FastFourierTransformBodyAccelerometerJerkMeanFrequencyZaxis
-  - [60] Fast fourier transform applied: body accelerometer jerk signal mean frequency for the Z axis measurement
+  - [60] Fast Fourier transform applied: body accelerometer jerk signal mean frequency for the Z axis measurement
   - 11 to 20, numeric
   - -0.62755547372549 to 0.230107945944444, Range = 0.857663419669934
 
 * FastFourierTransformBodyGyroscopeMeanXaxis
-  - [61] Fast fourier transform applied: body gyroscope mean for the X axis measurement
+  - [61] Fast Fourier transform applied: body gyroscope mean for the X axis measurement
   - 11 to 19, numeric
   - -0.99312260884058 to 0.474962448333333, Range = 1.46808505717391
 
 * FastFourierTransformBodyGyroscopeMeanYaxis
-  - [62] Fast fourier transform applied: body gyroscope mean for the Y axis measurement
+  - [62] Fast Fourier transform applied: body gyroscope mean for the Y axis measurement
   - 11 to 19, numeric
   - -0.994025488297872 to 0.328817010088889, Range = 1.32284249838676
 
 * FastFourierTransformBodyGyroscopeMeanZaxis
-  - [63] Fast fourier transform applied: body gyroscope mean for the Z axis measurement
+  - [63] Fast Fourier transform applied: body gyroscope mean for the Z axis measurement
   - 11 to 19, numeric
   - -0.985957788 to 0.492414379822222, Range = 1.47837216782222
 
 * FastFourierTransformBodyGyroscopeStandardDeviationXaxis
-  - [64] Fast fourier transform applied: body gyroscope standard deviation for the X axis measurement
+  - [64] Fast Fourier transform applied: body gyroscope standard deviation for the X axis measurement
   - 11 to 18, numeric
   - -0.994652185217391 to 0.196613286661538, Range = 1.19126547187893
 
 * FastFourierTransformBodyGyroscopeStandardDeviationYaxis
-  - [65] Fast fourier transform applied: body gyroscope standard deviation for the Y axis measurement
+  - [65] Fast Fourier transform applied: body gyroscope standard deviation for the Y axis measurement
   - 11 to 19, numeric
   - -0.994353086595745 to 0.646233637037037, Range = 1.64058672363278
 
 * FastFourierTransformBodyGyroscopeStandardDeviationZaxis
-  - [66] Fast fourier transform applied: body gyroscope standard deviation for the Z axis measurement
+  - [66] Fast Fourier transform applied: body gyroscope standard deviation for the Z axis measurement
   - 10 to 19, numeric
   - -0.986725274871795 to 0.522454216314815, Range = 1.50917949118661
 
 * FastFourierTransformBodyGyroscopeMeanFrequencyXaxis
-  - [67] Fast fourier transform applied: body gyroscope mean frequency for the X axis measurement
+  - [67] Fast Fourier transform applied: body gyroscope mean frequency for the X axis measurement
   - 12 to 20, numeric
   - -0.395770150677419 to 0.249209411510602, Range = 0.644979562188021
 
 * FastFourierTransformBodyGyroscopeMeanFrequencyYaxis
-  - [68] Fast fourier transform applied: body gyroscope mean frequency for the Y axis measurement
+  - [68] Fast Fourier transform applied: body gyroscope mean frequency for the Y axis measurement
   - 12 to 20, numeric
   - -0.666814815306122 to 0.273141323315789, Range = 0.939956138621911
 
 * FastFourierTransformBodyGyroscopeMeanFrequencyZaxis
-  - [69] Fast fourier transform applied: body gyroscope mean frequency for the Z axis measurement
+  - [69] Fast Fourier transform applied: body gyroscope mean frequency for the Z axis measurement
   - 11 to 20, numeric
   - -0.507490866734694 to 0.3770740968, Range = 0.884564963534694
 
 * FastFourierTransformBodyAccelerometerMagnitudeMean
-  - [70] Fast fourier transform applied: body accelerometer magnitude mean 
+  - [70] Fast Fourier transform applied: body accelerometer magnitude mean 
   - 11 to 20, numeric
   - -0.986800645362319 to 0.586637550769231, Range = 1.57343819613155
 
 * FastFourierTransformBodyAccelerometerMagnitudeStandardDeviation
-  - [71] Fast fourier transform applied: body accelerometer magnitude standard deviation 
+  - [71] Fast Fourier transform applied: body accelerometer magnitude standard deviation 
   - 11 to 20, numeric
   - -0.987648484461539 to 0.178684580868889, Range = 1.16633306533043
 
 * FastFourierTransformBodyAccelerometerMagnitudeMeanFrequency
-  - [72] Fast fourier transform applied: body accelerometer magnitude mean frequency 
+  - [72] Fast Fourier transform applied: body accelerometer magnitude mean frequency 
   - 10 to 21, numeric
   - -0.312338030213846 to 0.435846931652174, Range = 0.74818496186602
 
 * FastFourierTransformBodyBodyAccelerometerJerkMagnitudeMean
-  - [73] Fast fourier transform applied: body body accelerometer jerk signal magnitude mean 
+  - [73] Fast Fourier transform applied: body body accelerometer jerk signal magnitude mean 
   - 12 to 20, numeric
   - -0.993998275797101 to 0.538404846128205, Range = 1.53240312192531
 
 * FastFourierTransformBodyBodyAccelerometerJerkMagnitudeStandardDeviation
-  - [74] Fast fourier transform applied: body body accelerometer jerk signal magnitude standard deviation 
+  - [74] Fast Fourier transform applied: body body accelerometer jerk signal magnitude standard deviation 
   - 11 to 19, numeric
   - -0.994366667681159 to 0.316346415348718, Range = 1.31071308302988
 
 * FastFourierTransformBodyBodyAccelerometerJerkMagnitudeMeanFrequency
-  - [75] Fast fourier transform applied: body body accelerometer jerk signal magnitude mean frequency 
+  - [75] Fast Fourier transform applied: body body accelerometer jerk signal magnitude mean frequency 
   - 12 to 21, numeric
   - -0.125210388757581 to 0.488088499666667, Range = 0.613298888424248
 
 * FastFourierTransformBodyBodyGyroscopeMagnitudeMean
-  - [76] Fast fourier transform applied: body body gyroscope magnitude mean 
+  - [76] Fast Fourier transform applied: body body gyroscope magnitude mean 
   - 9 to 20, numeric
   - -0.986535242105263 to 0.203979764835897, Range = 1.19051500694116
 
 * FastFourierTransformBodyBodyGyroscopeMagnitudeStandardDeviation
-  - [77] Fast fourier transform applied: body body gyroscope magnitude standard deviation 
+  - [77] Fast Fourier transform applied: body body gyroscope magnitude standard deviation 
   - 9 to 18, numeric
   - -0.981468841692308 to 0.236659662496296, Range = 1.2181285041886
 
 * FastFourierTransformBodyBodyGyroscopeMagnitudeMeanFrequency
-  - [78] Fast fourier transform applied: body body gyroscope magnitude mean frequency 
+  - [78] Fast Fourier transform applied: body body gyroscope magnitude mean frequency 
   - 13 to 21, numeric
   - -0.456638670923077 to 0.409521611525424, Range = 0.866160282448501
 
 * FastFourierTransformBodyBodyGyroscopeJerkMagnitudeMean
-  - [79] Fast fourier transform applied: body body gyroscope jerk signal magnitude mean 
+  - [79] Fast Fourier transform applied: body body gyroscope jerk signal magnitude mean 
   - 11 to 19, numeric
   - -0.997617389275362 to 0.146618569064407, Range = 1.14423595833977
 
 * FastFourierTransformBodyBodyGyroscopeJerkMagnitudeStandardDeviation
-  - [80] Fast fourier transform applied: body body gyroscope jerk signal magnitude standard deviation 
+  - [80] Fast Fourier transform applied: body body gyroscope jerk signal magnitude standard deviation 
   - 10 to 19, numeric
   - -0.99758523057971 to 0.287834616098305, Range = 1.28541984667802
 
 * FastFourierTransformBodyBodyGyroscopeJerkMagnitudeMeanFrequency
-  - [81] Fast fourier transform applied: body body gyroscope jerk signal magnitude mean frequency 
+  - [81] Fast Fourier transform applied: body body gyroscope jerk signal magnitude mean frequency 
   - 11 to 21, numeric
   - -0.182923596577778 to 0.426301679855072, Range = 0.60922527643285
 
